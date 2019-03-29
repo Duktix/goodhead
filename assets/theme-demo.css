@@ -1,0 +1,46 @@
+body{
+					}
+	p{
+					}
+	h1,.h1{
+					font-family: Lato;
+							font-size: 140px;
+			}
+	h2,.h2{
+					font-family: Lato;
+							font-size: 45px;
+			}
+	h3,.h3{
+					font-family: Lato;
+							font-size: 36px;
+			}
+	h4,.h4{
+					font-family: Lato;
+							font-size: 30px;
+			}
+	h5,.h5{
+					font-family: Lato;
+							font-size: 18px;
+			}
+	h6,.h6{
+					}
+	a{
+					}
+
+
+
+
+		
+	.is-btn{
+letter-spacing:0px;
+padding: 8px 37px;
+font-size: 20px;
+}
+.is-btn-ghost2,.is-light-text .is-btn-ghost2, .is-dark-text .is-light-text .is-btn-ghost2{
+background-color: #c925bc;
+border: none;
+color: white;
+text-decoration: none;
+display: inline-block;
+}
+	
