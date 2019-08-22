@@ -128,7 +128,8 @@ h1{
 	color:rgba(0,0,0,1);
 }
 .header3 .sliding .sliding-menu,.header4 .sliding .sliding-menu{
-	background-color:#eaeaea
+	background-color:#eaeaea;
+	color:#000000;
 }
 @media (max-width: 768px){
 	.navbar-collapse{
