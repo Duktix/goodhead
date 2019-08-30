@@ -179,6 +179,21 @@ ul.sitemap li a {
     width: 100%;
     border-radius: 0;
     border-color: inherit;
+    background-image: url(/uploads/2019/08/btn-submit-bg_640915644.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+}
+.newsletter .help {
+    line-height: 1.3;
+    margin-bottom: 14px;
+    color: #6b6b6b;
+    font-weight: 500;
+}
+.newsletter .footnote {
+    margin-top: -10px;
+    color: #6b6b6b;
+    font-weight: 500;
 }
 
 	.button_4740996{-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;background-color:#92298d;background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;display:inline-block;}.button_4740996:hover{background-color:rgba(146,41,141,0.7);background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;}
