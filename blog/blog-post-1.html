@@ -176,7 +176,100 @@ role="navigation" >
         <li><a href="#">Dolor</a></li>
         <li><a href="#">Sit</a></li>
     </ul><div class="newsletter">
-    [widget type="form_widget" id="4"]
+    <div class="widget form_widget form_widget_7">
+		<!-- Hubspot -->
+				<!-- Hubspot -->
+		
+		<div class="alert alert-success collapse" id="form_7_success"></div>
+		<form id="form_7" method="post" 
+		
+				
+		>
+								  <div class="form-group col-sm-12 
+				  				  				  ">
+										<label for="field_467">Join Our Mailing List</label>
+															<div class="help">Sign up for our mailing list to get latest updates and offers.</div>
+										<input type="text" class="form-control placeholder" name='field_467' id="field_467" placeholder="Email address" value="Email address">
+									  </div>
+								
+				
+				<!-- Hubspot -->
+								
+				<!-- Hubspot -->
+				<input type="hidden" class="form-control" name="logo" value="https://Frezit.github.io/goodhead/https://Frezit.github.io/goodhead//uploads/2019/08/goodhead-logo_1026623647.png">
+				<input type="hidden" class="form-control" name="url" value="https://Frezit.github.io/goodhead/">
+				<input type="hidden" class="form-control" name="newsletter" value="https://Frezit.github.io/goodhead//newsletter/form_7_email">
+				<div class="form-group col-sm-12">
+				<button type="submit" class="btn btn-default ">Submit</button>
+				</div>
+		</form>
+	</div>
+<style>
+#form_7 .form-control{
+			background-color: rgba(255,255,255,1);
+				color: rgba(0,0,0,1);
+				border: 0;
+				border-color: rgba(255,255,255,1);
+				padding: 5px 10px;
+				font-size: 15px;
+		height: auto;
+}
+</style>
+<script>
+jQuery(document).ready(function(){
+	setInterval(function(){
+		jQuery('.checkboxgroup').each(function(){
+			var texts = '';
+			jQuery(this).find('input[type="checkbox"]').each(function(){
+				if(jQuery(this).is(':checked')){
+					texts = texts+jQuery(this).val()+', ';
+				}
+			})
+			jQuery(this).find('input[type="text"]').val(texts);
+		})
+	}, 100);
+	jQuery("#form_7").validate({
+		rules:{
+		  			"field_467": {
+									required: true,
+							},
+		  		},
+		messages: {
+							"field_467": {
+											required: "This field is required",
+									},
+					},
+		submitHandler: function(form) {
+			
+						
+							jQuery.ajax({
+						type: "POST",
+						url: "http://mx.frezit.com",
+						data: { data: jQuery('#form_7').serialize(), adminmail:'jbora201@gmail.com', recipients:'jbora201@gmail.com', from: 'jbora201@gmail.com', fromname: 'goodhead', subject:'', replyto:'' },
+						dataType: "text",
+						success: function(resultData){
+							console.log(resultData);
+							if(resultData=='success'){
+																	jQuery('#form_7').find('button[type="submit"]').prop('disabled', true);
+									jQuery('#form_7_success').html('Please wait...');
+									jQuery('#form_7_success').addClass('in');
+									setTimeout(function(){ 
+										jQuery('#form_7_success').hide();
+										jQuery('#form_7_success').html('Thank you for your submission.');
+										jQuery('#form_7_success').fadeIn();
+										jQuery('#form_7').find('button[type="submit"]').prop('disabled', false);
+										jQuery('#form_7').trigger('reset');
+																			}, 1000);
+															}
+						}
+				});
+						
+			
+		}
+	});
+})
+</script>
+
 </div>
 </div>
 <div class="col-md-4">
