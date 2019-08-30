@@ -151,6 +151,35 @@ ul.sitemap li a {
     font-weight: 500;
     font-size: 14px;
 }
+.newsletter h3.title {
+    margin-bottom: 7px;
+    margin-top: 24px;
+}
+.newsletter .form-group {
+    padding: 0 !important;
+}
+.newsletter form {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+}
+.newsletter .form-group input[type=text] {
+    border-radius: 0;
+    min-height: 41px;
+}
+.newsletter .form-group:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 87%;
+    max-width: 50px;
+}
+.newsletter .form-group:last-child button.submit {
+    background-color: #05a5ff;
+    color: transparent;
+    width: 100%;
+    border-radius: 0;
+    border-color: inherit;
+}
 
 	.button_4740996{-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;background-color:#92298d;background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;display:inline-block;}.button_4740996:hover{background-color:rgba(146,41,141,0.7);background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;}
 .navbar-custom{
