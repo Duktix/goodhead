@@ -75,6 +75,76 @@ h1{
 .block .is-box-6 .col-md-6:nth-child(2){
     padding: 18px 20px;
 }
+.site-footer h3.title {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.site-footer a.morelink {
+    color: #92298d;
+    font-weight: 500;
+}
+.site-footer .footer-social {
+    border-top: 1px solid #474747;
+}
+.site-footer .footer-social a.fa {
+    background: transparent;
+    margin: 0;
+    width: auto;
+    padding-right: 18px;
+}
+.site-footer ul.popular-tags {
+    padding: 0;
+}
+.site-footer ul.popular-tags li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 3px 12px 5px 12px;
+    background-color: #4a4a4a;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+.site-footer ul.footer-posts {
+    padding: 0;
+}
+.site-footer ul.footer-posts li {
+    list-style-type: none;
+}
+.site-footer ul.footer-posts li .thumb {
+    min-height: 50px;
+    min-width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+.site-footer ul.footer-posts li .thumb, .site-footer ul.footer-posts li .info {
+    display: inline-block;
+    vertical-align: top;
+}
+.site-footer ul.footer-posts li .info h5.title {
+    font-weight: 500;
+    font-size: 14px;
+}
+.site-footer ul.footer-posts li .info h5.date {
+    font-size: 12px;
+    color: #92298d;
+}
+.copyright {
+    font-size: 13px;
+    color: #6b6b6b;
+    font-weight: 400;
+}
+ul.sitemap li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+ul.sitemap li a {
+    color: #6b6b6b;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
 
 	.button_4740996{-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;background-color:#92298d;background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;display:inline-block;}.button_4740996:hover{background-color:rgba(146,41,141,0.7);background-image:none;color:#ffffff;font-family:Lato;font-size:20px;line-height:20px;font-weight:400;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;}
 .navbar-custom{
