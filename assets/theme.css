@@ -50,6 +50,8 @@ h1{
 }
 .design2 h1 {
     font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    letter-spacing: 1px;
 }
 
 .is-card{
