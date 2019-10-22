@@ -53,7 +53,17 @@ h1{
     font-size: 48px;
     letter-spacing: 1px;
 }
-
+.design2 {
+    font-size: 17px;
+    line-height: 1.5;
+}
+.design2 a.is-btn {
+    background-color: #FF4D54;
+    border-color: #FF4D54;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 25PX;
+}
 .is-card{
     border-radius: 10px;
 	width:100%;
